@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prod": "set NODE_ENV=production&&gulp"
+    "build": "set NODE_ENV=production&&gulp",
+    "start": "gulp"
   },
   "author": "Denis Diachuk",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
-    "bootstrap": "^4.3.1",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",

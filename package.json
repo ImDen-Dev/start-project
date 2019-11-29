@@ -1,8 +1,7 @@
 {
-  "name": "test-alef",
+  "name": "startup-template-for-development",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Quick Start Template",
   "scripts": {
     "build": "set NODE_ENV=production&&gulp",
     "start": "gulp"
